@@ -18,9 +18,7 @@ a {
 
 }
 
-.container {
-    padding: 1.5rem 0;
-}
+
 
 .all .text {
     display: flex;
@@ -67,7 +65,7 @@ a {
 }
 
 .container {
-    padding: 1.5rem 0;
+    padding: 1.5rem 2rem;
 }
 
 .right-text .box {
@@ -324,6 +322,7 @@ a {
 #phone-center .box{
     display: flex;
     flex-wrap: wrap;
+    
 }
 #phone-center .box{
     background-color: #69ACF1;
@@ -335,6 +334,7 @@ a {
     margin-bottom: 15px;
     position: relative;
     left: 5%;
+    
 }
 #phone-center .box span{
     font-size: 18px;
@@ -366,6 +366,7 @@ a {
     top: 30%;
     left: 10%;
 }
+
 
 #phone-center .box3 p {
 
@@ -519,6 +520,10 @@ a {
     
     display: none;
 }
+#phone-news{
+    
+    display: none;
+}
 
 #News{
     padding: 5rem 0;
@@ -583,6 +588,9 @@ a {
         display: block;
     }
     #phone-search{
+        display: block;
+    }
+    #phone-news{
         display: block;
     }
 }
